@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.app {
+    background-color: rgb(240, 240, 240);
+    width: 500px;
+    border: 2px solid gray;
+    height: 100vh;
+}
+
+header {
+    background-color: 8c38ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px 0px;
+    background-image: linear-gradient(to bottom, #8c38ff, blue);
+    height: 30vh;
+}
+
+header input {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+input:focus {
+    box-shadow: 0px 6px 12px black;
+}
+
+#message_content {
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#message_form {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* box-shadow: 0px -1px 5px  black; */
+}
+#message_form input {
+    font-size: 1em;
+    padding: 10px;
+    flex: 1 1 0%;
+    border: none;
+}
+#message_form button {
+    font-size: 1em;
+    padding: 5px 10px;
+    /* flex: 1 1 0%; */
+    border: none;
+    background-color: #8c38ff;
+    color: white;
+    cursor: pointer;
+}
+
+#messages {
+    padding: 10px;
+}
+
+.message_row {
+    box-shadow: 1px 2px 5px black;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.message_row strong {
+    color: #8c38ff;
+}
+
